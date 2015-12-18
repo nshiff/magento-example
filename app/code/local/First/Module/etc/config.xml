@@ -33,6 +33,11 @@
 					<data>First_Module_Helper_Data</data>
 				</rewrite>
 			</sales>
+			<customer>
+				<rewrite>
+					<address>First_Module_Helper_Address</address>
+				</rewrite>
+			</customer>
 		</helpers>
 
 	</global>
