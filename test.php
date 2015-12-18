@@ -24,7 +24,7 @@ echo(get_class($object_resource_model));
 echo('<br>');
 echo('<br>');
 
-$object_helper = Mage::helper('catalog/product');
+$object_helper = Mage::helper('sales');	//subtype 'data' is implied for helpers
 echo(get_class($object_helper));
 echo('<br>');
 echo('<br>');

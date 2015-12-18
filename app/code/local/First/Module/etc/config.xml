@@ -26,6 +26,14 @@
 				</rewrite>
 			</catalog_resource_eav_mysql4>
 		</models>
+		
+		<helpers>
+			<sales>
+				<rewrite>
+					<data>First_Module_Helper_Data</data>
+				</rewrite>
+			</sales>
+		</helpers>
 
 	</global>
 </config>
