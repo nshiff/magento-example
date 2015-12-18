@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+	<global>
+		<models>
+			<Foo_Bar>
+				<class>Foo_Bar_Model</class>
+			</Foo_Bar>
+		</models>
+	</global>
+
+	<frontend>	<!-- depends on above ^^^ -->
+		<events>
+			<catalog_product_load_after>
+				<observers>
+					<foo_bar>
+						<type>model</type>	<!-- default type is singleton -->
+						<class>foo_bar_observer</class>
+						<method>CatalogProductLoadAfter</method>
+					</foo_bar>
+
+
+
+				</observers>
+			</catalog_product_load_after>
+		</events>
+	</frontend>
+
+</config>
