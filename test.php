@@ -29,7 +29,10 @@ echo(get_class($object_helper));
 echo('<br>');
 echo('<br>');
 
-
+$object_helper_address = Mage::helper('customer/address');
+echo(get_class($object_helper_address));
+echo('<br>');
+echo('<br>');
 
 
 echo('done');
