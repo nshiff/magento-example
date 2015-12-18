@@ -23,11 +23,11 @@
  * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
-$object_model = $this->getObject();
+$object = $this->getObject();
 ?>
 
-<a href="<?php echo $this->getLinkUrl(); ?>" class="<?php echo $object_model->getIsDefault() ? 'bold' : '' ?> <?php echo $this->getClass(); ?>" title="<?php echo $this->__('Id') . ': ' . $object_model->getId()?>">
-    <?php echo $this->escapeHtml($object_model->getName()); ?>
+<a href="<?php echo $this->getLinkUrl(); ?>" class="<?php echo $object->getIsDefault() ? 'bold' : '' ?> <?php echo $this->getClass(); ?>" title="<?php echo $this->__('Id') . ': ' . $object->getId()?>">
+    <?php echo $this->escapeHtml($object->getName()); ?>
 </a>
 <br />
 <span class="additional-info">(<?php echo $this->getInfo(); ?>)</span>
