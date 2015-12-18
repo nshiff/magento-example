@@ -24,7 +24,10 @@ echo(get_class($object_resource_model));
 echo('<br>');
 echo('<br>');
 
-
+$object_helper = Mage::helper('catalog/product');
+echo(get_class($object_helper));
+echo('<br>');
+echo('<br>');
 
 
 
