@@ -3,6 +3,7 @@
 
 <config>
 	<global>
+
 		<blocks>
 			<catalog>
 				<rewrite>
@@ -19,7 +20,13 @@
 					<product>First_Module_Model_Product</product>
 				</rewrite>
 			</catalog>
+			<catalog_resource_eav_mysql4>
+				<rewrite>
+					<product>First_Module_Model_Product_Resource_Model</product>
+				</rewrite>
+			</catalog_resource_eav_mysql4>
 		</models>
+
 	</global>
 </config>
 
