@@ -27,6 +27,15 @@
 	</global>
 
 	<frontend>
+		<routers>
+			<day_two>	<!-- unique namespace-->
+				<use>standard</use>
+				<args>
+					<module>Day_Two</module>	<!-- path into your module -->
+					<frontName>heyo</frontName>	<!-- arbitrary - this is the route the browser hits -->
+				</args>
+			</day_two>
+		</routers>
 	</frontend>
 
 </config>
