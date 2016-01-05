@@ -226,7 +226,7 @@
             </depends>
         </Mage_GoogleCheckout>
         <Mage_Log>
-            <active>true</active>
+            <active>false</active>
             <codePool>core</codePool>
             <depends>
                 <Mage_Core/>

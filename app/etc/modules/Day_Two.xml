@@ -5,6 +5,9 @@
     <Day_Two>
       <active>true</active>
       <codePool>local</codePool>
+	  <depends>
+		<Mage_Log/>
+	  </depends>
     </Day_Two>
   </modules>
 </config>
