@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- app/etc/modules/Day_Two.xml -->
+<config>
+  <modules>
+    <Day_Two>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Day_Two>
+  </modules>
+</config>
