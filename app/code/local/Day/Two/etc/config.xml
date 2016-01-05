@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
+
+
+<!-- app/code/local/Day/Two/etc/config.xml -->
 <config>
 
 	<global>
@@ -19,7 +22,7 @@
 
 		<models>
 			<day_two>
-				<class>Day_Two_Helper</class>
+				<class>Day_Two_Model</class>
 			</day_two>
 		</models>
 
