@@ -37,11 +37,7 @@ class Day_Two_IndexController extends Mage_Core_Controller_Front_Action{	//"Inde
 	
 	public function defaultAction(){
 		
-		echo('welcome...');
-		
 		$this->loadLayout()->renderLayout();
-		
-		echo('<br>...to The Matrix.');
 	
 	}
 	
