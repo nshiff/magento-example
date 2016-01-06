@@ -13,7 +13,13 @@ class Day_Two_IndexController extends Mage_Core_Controller_Front_Action{	//"Inde
 		echo('hi');
 		echo('<br>');
 		echo(get_class($this));
-		echo(get_class(Mage::getModel('day_two/whatever')));		
+		echo('<br>');
+		$model = Mage::getModel('day_two/whatever');
+		echo(get_class($model));
+
+		$forceLog = true;
+		Mage::log($model->debug(), Zend_Log::INFO, 'model.log', $forceLog );
+
 	}
 	
 	public function layoutAction(){	// route 'heyo/index/layout'
