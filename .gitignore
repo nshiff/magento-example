@@ -1,3 +1,9 @@
 var/
 media/
+tmp/
 *~
+*.bak
+.buildpath
+.project
+.settings/
+
